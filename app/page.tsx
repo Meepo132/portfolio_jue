@@ -393,11 +393,17 @@ export default function Portfolio() {
 
                 <div>
                   <h4 className="text-xl font-bold text-blue-400 mb-2">TeachLink</h4>
-                  <p className="text-gray-400 text-[15px] leading-relaxed max-w-2xl mb-6">
-                    Cybersecurity နှင့် Web Development ပိုင်းဆိုင်ရာ သင်ခန်းစာများကို စနစ်တကျ ပြင်ဆင်ခြင်း၊
-                    လုံခြုံစိတ်ချရသော platform architecture များအား လေ့လာဆန်းစစ်ခြင်းနှင့်
-                    ခေတ်မီနည်းပညာများ အသုံးပြု၍ interactive ဖြစ်သော website များအား တည်ဆောက်ခဲ့ပါသည်။
-                  </p>
+                  <p className="text-gray-300 leading-relaxed">
+  My name is <span className="text-white font-semibold underline decoration-blue-500/30">Hein Zayar Kyaw.</span> I'm a <span className="text-blue-400 font-medium">Software Engineer</span> with over 2 years of hands-on experience building scalable, responsive, and user-focused web applications.
+</p>
+
+<p className="text-gray-400 mt-4 leading-relaxed">
+  I specialize in creating seamless front-end experiences using <span className="text-white">React, and Tailwind CSS</span>, and developing robust back-end solutions with <span className="text-white">Node.js and Express.</span>
+</p>
+
+<p className="text-gray-400 mt-4 leading-relaxed">
+  I'm also skilled in working with relational databases such as <span className="text-white">Microsoft SQL Server and Oracle SQL.</span> I'm passionate about transforming complex ideas into clean, maintainable code and delivering meaningful, impactful user experiences.
+</p>
 
                   <div className="flex items-center gap-2 mb-4">
                     <Terminal size={14} className="text-gray-500" />
