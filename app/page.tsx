@@ -212,16 +212,17 @@ export default function Portfolio() {
                 About <span className="text-gray-500 italic">My Journey</span>
               </h3>
               <div className="space-y-6 text-[17px] leading-relaxed text-gray-400">
-                <p>
-                  ကျွန်တော့်နာမည် <span className="text-white font-semibold">Hein</span> ဖြစ်ပါတယ်။ လက်ရှိတွင်
-                  <span className="text-blue-400 font-medium text-white underline decoration-blue-500/30"> University of Central Lancashire (UCLan)</span> တွင်
-                  Cybersecurity and Networking ကို အထူးပြုလေ့လာနေပါတယ်။
-                </p>
-                <p>
-                  နည်းပညာလောကထဲကို စိတ်ဝင်စားမှုအပြည့်နဲ့ ဝင်ရောက်လာခဲ့ပြီး လုံခြုံစိတ်ချရတဲ့ Digital ပတ်ဝန်းကျင်တစ်ခု ဖန်တီးဖို့ ရည်မှန်းထားပါတယ်။
-                  Security-first mindset နဲ့ ခေတ်မီတဲ့ Application တွေကို တည်ဆောက်နိုင်ဖို့ ကြိုးစားနေသူတစ်ဦး ဖြစ်ပါတယ်။
-                </p>
-              </div>
+                <p className="text-gray-300 leading-relaxed">
+                    My name is <span className="text-white font-semibold underline decoration-blue-500/30">Hein Zayar Kyaw.</span> I'm a <span className="text-blue-400 font-medium">Software Engineer</span> with over 2 years of hands-on experience building scalable, responsive, and user-focused web applications.
+                  </p>
+                  
+                  <p className="text-gray-400 mt-4 leading-relaxed">
+                    I specialize in creating seamless front-end experiences using <span className="text-white">React, and Tailwind CSS</span>, and developing robust back-end solutions with <span className="text-white">Node.js and Express.</span>
+                  </p>
+                  
+                  <p className="text-gray-400 mt-4 leading-relaxed">
+                    I'm also skilled in working with relational databases such as <span className="text-white">Microsoft SQL Server and Oracle SQL.</span> I'm passionate about transforming complex ideas into clean, maintainable code and delivering meaningful, impactful user experiences.
+                  </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-10">
                 <div className="p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] transition-colors">
