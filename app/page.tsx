@@ -213,7 +213,7 @@ export default function Portfolio() {
               </h3>
               <div className="space-y-6 text-[17px] leading-relaxed text-gray-400">
                 <p className="text-gray-300 leading-relaxed">
-                    My name is <span className="text-white font-semibold underline decoration-blue-500/30">Hein Zayar Kyaw.</span> I'm a <span className="text-blue-400 font-medium">Software Engineer</span> with over 2 years of hands-on experience building scalable, responsive, and user-focused web applications.
+                    My name is <span className="text-white font-semibold underline decoration-blue-500/30">Hein Zayar Kyaw.</span> I'm a <span className="text-blue-400 font-medium">DevOps Engineer</span> with over 3 years of hands-on experience building scalable, responsive, and user-focused web applications.
                   </p>
                   
                   <p className="text-gray-400 mt-4 leading-relaxed">
