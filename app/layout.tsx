@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Providers } from "./providers";
+import { Providers } from "./providers"; // providers ကိုပဲ သုံးပါမယ်
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "HEIN | Portfolio",
-  description: "DevOps & Full-Stack Developer",
+  description: "Software Developer Portfolio",
 };
 
 export default function RootLayout({
@@ -25,9 +25,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white dark:bg-[#0a0a0a] transition-colors duration-300`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {/* ThemeProvider အဟောင်းနေရာမှာ Providers နဲ့ အခုလို ပတ်ပေးပါ */}
         <Providers>
           {children}
         </Providers>
