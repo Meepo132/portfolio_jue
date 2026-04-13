@@ -281,6 +281,43 @@ export default function Portfolio() {
                   <span className="text-xs font-semibold tracking-wide">2023 — 2024</span>
                 </div>
               </div>
+              <div className="flex gap-6">
+                {/* Company Icon (DevOps/Cloud Icon Style) */}
+                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500 to-blue-600 p-0.5 shadow-[0_0_20px_rgba(6,182,212,0.3)]">
+                  <div className="w-full h-full bg-[#0a0a0a] rounded-[calc(1rem-2px)] flex items-center justify-center">
+                    <Shield className="text-cyan-400" size={30} />
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="text-xl font-bold text-cyan-400 mb-2">DevOps Engineer — TechLink</h4>
+
+                  <p className="text-gray-400 text-[15px] leading-relaxed max-w-2xl mb-6">
+                    Streamlined the software delivery process at <span className="text-white">TechLink</span> by designing
+                    automated <span className="text-cyan-400 font-medium">CI/CD pipelines</span> and managing
+                    <span className="text-white"> Cloud Infrastructure</span>. I specialized in
+                    <span className="text-white"> Infrastructure as Code (IaC)</span>, container orchestration with
+                    <span className="text-white"> Kubernetes</span>, and monitoring system health to ensure
+                    maximum uptime and secure, rapid deployments.
+                  </p>
+
+                  <div className="flex items-center gap-2 mb-4">
+                    <Terminal size={14} className="text-gray-500" />
+                    <span className="text-[11px] font-bold uppercase tracking-widest text-gray-500">DevOps Toolstack</span>
+                  </div>
+
+                  <div className="flex flex-wrap gap-2">
+                    {['Terraform', 'Kubernetes', 'Docker', 'GitHub Actions', 'AWS', 'Prometheus', 'Linux', 'Nginx'].map((tech) => (
+                      <span key={tech} className="px-4 py-1.5 rounded-full border border-cyan-500/20 bg-cyan-500/5 text-cyan-400 text-xs font-medium">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center gap-3 px-4 py-2 rounded-full border border-white/10 bg-white/5 self-start group-hover:bg-blue-500 group-hover:text-white transition-all">
+                <span className="text-xs font-semibold tracking-wide">2024 — Present</span>
+              </div>
               {/* <div className="flex flex-col md:flex-row md:items-start justify-between gap-6">
                 <div className="flex gap-6">
                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-purple-600 p-0.5 shadow-[0_0_20px_rgba(59,130,246,0.1)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.3)] transition-all">
