@@ -158,9 +158,23 @@ export default function Portfolio() {
                 About <span className="text-gray-500 italic">My Journey</span>
               </h3>
               <div className="space-y-6 text-[17px] leading-relaxed text-gray-400">
-                <p>
-                  I specialize in creating seamless front-end experiences using <span className="text-blue">React, and Tailwind CSS</span>, and developing robust back-end solutions with <span className="text-white">Node.js and Express.js</span>
-                </p>
+                <div className="space-y-6 text-[17px] leading-relaxed text-gray-400">
+                  <p>
+                    My name is <span className="text-white font-semibold">Hein Zayar Kyaw.</span> I am a
+                    <span className="text-blue-400 font-medium"> Software Engineer</span> with a passion for building
+                    scalable, secure, and user-centric web applications.
+                  </p>
+                  <p>
+                    With over <span className="text-white">2 years of experience</span> in full-stack development,
+                    I specialize in the <span className="text-blue-400">MERN stack</span> (MongoDB, Express, React, Node.js).
+                    I love transforming complex logic into clean, maintainable code while ensuring a seamless user experience.
+                  </p>
+                  <p>
+                    Coming from a background in <span className="text-white font-medium">Cybersecurity and Networking</span>,
+                    I prioritize security and efficiency in everything I build. I am dedicated to bridging the gap between
+                    robust engineering and elegant design to create meaningful digital solutions.
+                  </p>
+                </div>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-10">
                 <div className="p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-blue-500/30 hover:bg-white/[0.04] transition-all duration-300 group">
