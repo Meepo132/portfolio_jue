@@ -134,7 +134,11 @@ export default function Portfolio() {
             </p>
           </div>
           <div className="flex gap-4">
-            <a href="/Resume.pdf" className="flex items-center gap-3 bg-white text-black px-8 py-3.5 rounded-full font-semibold hover:bg-gray-200 transition-all shadow-[0_10px_20px_rgba(255,255,255,0.1)] group">
+            <a
+              href="/Resume.pdf"
+              download="Resume.pdf"
+              className="flex items-center gap-3 bg-white text-black px-8 py-3.5 rounded-full font-semibold hover:bg-gray-200 transition-all shadow-[0_10px_20px_rgba(255,255,255,0.1)] group"
+            >
               <Download size={20} className="group-hover:translate-y-0.5 transition-transform" />
               <span>Download Resume</span>
             </a>
@@ -298,7 +302,7 @@ export default function Portfolio() {
           </div>
         </section>
 
-        {/* --- Contact Section --- */}
+        --- Contact Section ---
         <section id="contact" className="py-24 px-6 scroll-mt-20">
           <div className="max-w-xl mx-auto">
             <div className="bg-white rounded-[40px] p-12 shadow-2xl border border-gray-100 flex flex-col items-center text-center">
@@ -503,15 +507,7 @@ export default function Portfolio() {
 
             </div>
 
-
-
-
-
-
-
           </section>
-
-
 
           {/* --- Projects Section --- */}
 
