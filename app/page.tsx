@@ -175,7 +175,7 @@ export default function Portfolio() {
 
         <div className="max-w-5xl mx-auto h-full px-6 flex flex-col justify-center relative z-10">
           <h2 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-            DevSecOps Engineer <br />
+            DevOps Engineer <br />
             <span className="text-gray-500">& Full-Stack Developer</span>
           </h2>
           <p className="max-w-2xl text-lg text-gray-400 leading-relaxed mb-8">
