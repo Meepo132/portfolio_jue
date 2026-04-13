@@ -350,10 +350,8 @@ export default function Portfolio() {
 
                 <div>
                   <h4 className="text-xl font-bold text-blue-400 mb-2">TeachLink</h4>
-                  <p className="text-gray-400 text-[15px] leading-relaxed max-w-2xl mb-6">
-                    Cybersecurity နှင့် Web Development ပိုင်းဆိုင်ရာ သင်ခန်းစာများကို စနစ်တကျ ပြင်ဆင်ခြင်း၊
-                    လုံခြုံစိတ်ချရသော platform architecture များအား လေ့လာဆန်းစစ်ခြင်းနှင့်
-                    ခေတ်မီနည်းပညာများ အသုံးပြု၍ interactive ဖြစ်သော website များအား တည်ဆောက်ခဲ့ပါသည်။
+                 <p className="text-gray-400 text-[15px] leading-relaxed max-w-2xl mb-6">
+                     Systematically developed Cybersecurity and Web Development curricula, analyzed secure platform architectures, and built highly interactive websites using modern industry technologies.
                   </p>
 
                   <div className="flex items-center gap-2 mb-4">
@@ -395,9 +393,7 @@ export default function Portfolio() {
                 <div>
                   <h4 className="text-xl font-bold text-blue-400 mb-2">TeachLink</h4>
                     <p className="text-gray-400 text-[15px] leading-relaxed max-w-2xl mb-6">
-                      Cybersecurity နှင့် Web Development ပိုင်းဆိုင်ရာ သင်ခန်းစာများကို စနစ်တကျ ပြင်ဆင်ခြင်း၊
-                      လုံခြုံစိတ်ချရသော platform architecture များအား လေ့လာဆန်းစစ်ခြင်းနှင့်
-                      ခေတ်မီနည်းပညာများ အသုံးပြု၍ interactive ဖြစ်သော website များအား တည်ဆောက်ခဲ့ပါသည်။
+                      Systematically developed Cybersecurity and Web Development curricula, analyzed secure platform architectures, and built highly interactive websites using modern industry technologies.
                     </p>
 
                   <div className="flex items-center gap-2 mb-4">
