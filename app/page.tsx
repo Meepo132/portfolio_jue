@@ -125,7 +125,7 @@ export default function Portfolio() {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a0a0a]/50 to-[#0a0a0a] z-0"></div>
         <div className="max-w-5xl mx-auto h-full px-6 flex flex-col justify-center relative z-10">
           <h2 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-            Software Engineer <br />
+            DevOps Engineer <br />
             <span className="text-gray-500 hover:text-gray-400 transition-colors">& Full-Stack Developer</span>
           </h2>
           <div className="max-w-2xl space-y-4 mb-8">
@@ -159,7 +159,7 @@ export default function Portfolio() {
               </h3>
               <div className="space-y-6 text-[17px] leading-relaxed text-gray-400">
                 <p>
-                  I specialize in creating seamless front-end experiences using <span className="text-white">React, and Tailwind CSS</span>, and developing robust back-end solutions with <span className="text-white">Node.js and Express.</span>
+                  I specialize in creating seamless front-end experiences using <span className="text-blue">React, and Tailwind CSS</span>, and developing robust back-end solutions with <span className="text-white">Node.js and Express.js</span>
                 </p>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-10">
@@ -219,6 +219,11 @@ export default function Portfolio() {
               <span className="text-cyan-500 font-mono text-xs font-bold group-hover:text-cyan-400">Certification</span>
               <h4 className="text-xl font-bold text-white mt-2 group-hover:text-cyan-400 transition">MERN Stack Development</h4>
               <p className="text-gray-500 mt-1 text-sm leading-relaxed">WTC Technology</p>
+            </div>
+            <div className="p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:-translate-y-2 transition-all duration-300 group">
+              <span className="text-cyan-500 font-mono text-xs font-bold group-hover:text-cyan-400">Certification</span>
+              <h4 className="text-xl font-bold text-white mt-2 group-hover:text-cyan-400 transition">DevOps</h4>
+              <p className="text-gray-500 mt-1 text-sm leading-relaxed">Myanmar Tech Academy</p>
             </div>
           </div>
         </section>
