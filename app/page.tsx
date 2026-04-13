@@ -133,7 +133,7 @@ export default function Portfolio() {
               My name is <span className="text-white font-semibold underline decoration-blue-500/30">Hein Zayar Kyaw.</span> I'm a <span className="text-blue-400 font-medium">Software Engineer</span> with over 2 years of hands-on experience building scalable, responsive, and user-focused web applications.
             </p>
           </div>
-          <div className="flex gap-4">
+          {/* <div className="flex gap-4">
             <a
               href="/Resume.pdf"
               download="Resume.pdf"
@@ -142,11 +142,53 @@ export default function Portfolio() {
               <Download size={20} className="group-hover:translate-y-0.5 transition-transform" />
               <span>Download Resume</span>
             </a>
+
+          </div> */}
+          <div className="flex flex-col sm:flex-row items-center gap-6 mt-10">
+            {/* Resume Download Button */}
+            <a
+              href="/Resume.pdf"
+              download="Resume.pdf"
+              className="flex items-center gap-3 bg-white text-black px-8 py-3.5 rounded-full font-semibold hover:bg-blue-500 hover:text-white transition-all shadow-[0_10px_20px_rgba(255,255,255,0.05)] group active:scale-95 whitespace-nowrap"
+            >
+              <Download size={20} className="group-hover:translate-y-0.5 transition-transform" />
+              <span>Download Resume</span>
+            </a>
+
+            {/* Technical Tools & Languages Icons */}
+            <div className="flex items-center gap-2 p-1 rounded-full border border-white/5 bg-white/[0.01]">
+              {[
+                { name: "React", image: "/tech/react.svg", color: "hover:border-blue-400" },
+                { name: "Next.js", image: "/tech/nextjs.svg", color: "hover:border-white" },
+                { name: "Tailwind CSS", image: "/tech/tailwind.svg", color: "hover:border-cyan-400" },
+                { name: "TypeScript", image: "/tech/typescript.svg", color: "hover:border-blue-600" },
+                { name: "Node.js", image: "/tech/nodejs.svg", color: "hover:border-green-500" },
+                { name: "Docker", image: "/tech/docker.svg", color: "hover:border-blue-500" },
+                { name: "Kubernetes", image: "/tech/kubernetes.svg", color: "hover:border-blue-600" },
+                { name: "AWS", image: "/tech/aws.svg", color: "hover:border-orange-400" },
+              ].map((tech) => (
+                <div
+                  key={tech.name}
+                  className={`group/icon relative w-12 h-12 rounded-full border border-white/10 bg-[#0a0a0a] flex items-center justify-center p-2.5 transition-all duration-300 ${tech.color} hover:shadow-[0_0_15px_-3px_rgba(59,130,246,0.3)]`}
+                >
+                  <img
+                    src={tech.image}
+                    alt={tech.name}
+                    className="w-full h-full object-contain opacity-60 group-hover/icon:opacity-100 group-hover/icon:scale-110 transition-all duration-300"
+                  />
+                  {/* Tooltip on Hover */}
+                  <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded-md bg-white/5 border border-white/10 text-white text-[10px] font-medium opacity-0 group-hover/icon:opacity-100 group-hover/icon:-translate-y-1 transition-all whitespace-nowrap z-20">
+                    {tech.name}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </header>
 
       <main className="max-w-5xl mx-auto px-6 pt-32 pb-20">
+
         {/* --- About Section --- */}
         <section id="about" className="mb-40 scroll-mt-28">
           <div className="flex flex-col md:flex-row gap-12">
