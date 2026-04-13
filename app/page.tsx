@@ -281,7 +281,7 @@ export default function Portfolio() {
                   <span className="text-xs font-semibold tracking-wide">2023 — 2024</span>
                 </div>
               </div>
-              <div className="flex flex-col md:flex-row md:items-start justify-between gap-6">
+              {/* <div className="flex flex-col md:flex-row md:items-start justify-between gap-6">
                 <div className="flex gap-6">
                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-purple-600 p-0.5 shadow-[0_0_20px_rgba(59,130,246,0.1)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.3)] transition-all">
                     <div className="w-full h-full bg-[#0a0a0a] rounded-[calc(1rem-2px)] flex items-center justify-center">
@@ -310,7 +310,7 @@ export default function Portfolio() {
                 <div className="flex items-center gap-3 px-4 py-2 rounded-full border border-white/10 bg-white/5 self-start group-hover:bg-blue-500 group-hover:text-white transition-all">
                   <span className="text-xs font-semibold tracking-wide">2024 — Present</span>
                 </div>
-              </div>
+              </div> */}
             </div>
           ))}
         </section>
