@@ -204,6 +204,77 @@ export default function Portfolio() {
               <SkillBar name="Microsoft SQL" percentage="80%" />
               <SkillBar name="Oracle SQL" percentage="75%" />
             </div>
+            {/* Security Skills */}
+
+            <div className="p-8 rounded-2xl border border-white/5 bg-white/[0.01]">
+
+              <h4 className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-8 flex items-center gap-2">
+
+                <Shield size={14} className="text-red-400" /> Security
+
+              </h4>
+
+              <SkillBar name="Network Defense" percentage="85%" />
+
+              <SkillBar name="Ethical Hacking" percentage="70%" />
+
+              <SkillBar name="Cyber Ops" percentage="65%" />
+
+            </div>
+            {/* Others */}
+
+            <div className="p-8 rounded-2xl border border-white/5 bg-white/[0.01]">
+
+              <h4 className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-8 flex items-center gap-2">
+
+                <Cpu size={14} className="text-purple-400" /> DevOps & Infrastructure
+
+              </h4>
+
+              <SkillBar name="Linux" percentage="80%" />
+
+              <SkillBar name="Git / GitHub" percentage="90%" />
+
+              <SkillBar name="Docker" percentage="85%" />
+
+              <SkillBar name="Kubernetes" percentage="85%" />
+
+            </div>
+            {/* Cloud */}
+
+            <div className="p-8 rounded-2xl border border-white/5 bg-white/[0.01]">
+
+              <h4 className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-8 flex items-center gap-2">
+
+                <Cpu size={14} className="text-purple-400" /> Cloud
+
+              </h4>
+
+              <SkillBar name="AWS" percentage="80%" />
+
+              <SkillBar name="Azure" percentage="90%" />
+
+            </div>
+
+            {/* Database */}
+
+            <div className="p-8 rounded-2xl border border-white/5 bg-white/[0.01]">
+
+              <h4 className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-8 flex items-center gap-2">
+
+                <Cpu size={14} className="text-purple-400" /> Database
+
+              </h4>
+
+              <SkillBar name="MongoDB" percentage="80%" />
+
+              <SkillBar name="MySQL" percentage="90%" />
+
+              <SkillBar name="PostgreSQl" percentage="85%" />
+
+              <SkillBar name="Firebase" percentage="85%" />
+
+            </div>
           </div>
         </section>
 
