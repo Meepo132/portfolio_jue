@@ -179,7 +179,7 @@ export default function Portfolio() {
             <span className="text-gray-500">& Full-Stack Developer</span>
           </h2>
           <p className="max-w-2xl text-lg text-gray-400 leading-relaxed mb-8">
-            ကျွန်တော်သည် <span className="text-blue-400 font-medium">University of Central Lancashire</span> တွင် ပညာသင်ကြားနေပြီး လုံခြုံစိတ်ချရသော Web Application များနှင့် ကွန်ရက်စနစ်များ တည်ဆောက်ရန် စိတ်အားထက်သန်ပါသည်။
+            Turning ideas into responsive, <span className="text-blue-400 font-medium">high-performance</span> web applications.
           </p>
 
           <div className="flex gap-4">
