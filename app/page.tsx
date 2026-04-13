@@ -325,6 +325,477 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
+          {/* --- Experience Section--- */}
+
+          <section id="experience" className="mb-30 scroll-mt-28">
+
+            <div className="flex items-center gap-2 mb-12">
+
+              <Code className="text-blue-500" size={24} />
+
+              <h3 className="text-2xl font-bold text-white tracking-tight">Experience</h3>
+
+            </div>
+
+
+
+            <div className="p-8 mb-8 rounded-[2rem] border border-white/10 bg-[#0a0a0a] relative overflow-hidden group">
+
+              <div className="flex flex-col md:flex-row md:items-start justify-between gap-6">
+
+                <div className="flex gap-6">
+
+                  {/* Company Icon Placeholder */}
+
+                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-purple-600 p-0.5 shadow-[0_0_20px_rgba(59,130,246,0.3)]">
+
+                    <div className="w-full h-full bg-[#0a0a0a] rounded-[calc(1rem-2px)] flex items-center justify-center">
+
+                      <Cpu className="text-blue-400" size={30} />
+
+                    </div>
+
+                  </div>
+
+
+
+                  <div>
+
+                    <h4 className="text-xl font-bold text-blue-400 mb-2">TeachLink</h4>
+
+                    <p className="text-gray-400 text-[15px] leading-relaxed max-w-2xl mb-6">
+                      Systematically developed Cybersecurity and Web Development curricula, analyzed secure platform architectures, and built highly interactive websites using modern industry technologies.
+                    </p>
+
+
+
+                    <div className="flex items-center gap-2 mb-4">
+
+                      <Terminal size={14} className="text-gray-500" />
+
+                      <span className="text-[11px] font-bold uppercase tracking-widest text-gray-500">Technologies</span>
+
+                    </div>
+
+
+
+                    <div className="flex flex-wrap gap-2">
+
+                      {['React', 'Next.js', 'Tailwind CSS', 'TypeScript', 'Node.js'].map((tech) => (
+
+                        <span key={tech} className="px-4 py-1.5 rounded-full border border-blue-500/20 bg-blue-500/5 text-blue-400 text-xs font-medium">
+
+                          {tech}
+
+                        </span>
+
+                      ))}
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+
+                {/* Date Badge */}
+
+                <div className="flex items-center gap-3 px-4 py-2 rounded-full border border-white/10 bg-white/5 self-start">
+
+                  <div className="w-6 h-6 text-gray-400">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+
+                    </svg>
+
+                  </div>
+
+                  <span className="text-xs font-semibold text-gray-300 tracking-wide">2023 — 2026</span>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div className="p-8 rounded-[2rem] border border-white/10 bg-[#0a0a0a] relative overflow-hidden group">
+
+              <div className="flex flex-col md:flex-row md:items-start justify-between gap-6">
+
+                <div className="flex gap-6">
+
+                  {/* Company Icon Placeholder */}
+
+                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-purple-600 p-0.5 shadow-[0_0_20px_rgba(59,130,246,0.3)]">
+
+                    <div className="w-full h-full bg-[#0a0a0a] rounded-[calc(1rem-2px)] flex items-center justify-center">
+
+                      <Cpu className="text-blue-400" size={30} />
+
+                    </div>
+
+                  </div>
+
+
+
+                  <div>
+
+                    <h4 className="text-xl font-bold text-blue-400 mb-2">TeachLink</h4>
+
+                    <p className="text-gray-400 text-[15px] leading-relaxed max-w-2xl mb-6">
+                      Systematically developed Cybersecurity and Web Development curricula, analyzed secure platform architectures, and built highly interactive websites using modern industry technologies.
+                    </p>
+
+
+
+                    <div className="flex items-center gap-2 mb-4">
+
+                      <Terminal size={14} className="text-gray-500" />
+
+                      <span className="text-[11px] font-bold uppercase tracking-widest text-gray-500">Technologies</span>
+
+                    </div>
+
+
+
+                    <div className="flex flex-wrap gap-2">
+
+                      {['React', 'Next.js', 'Tailwind CSS', 'TypeScript', 'Node.js'].map((tech) => (
+
+                        <span key={tech} className="px-4 py-1.5 rounded-full border border-blue-500/20 bg-blue-500/5 text-blue-400 text-xs font-medium">
+
+                          {tech}
+
+                        </span>
+
+                      ))}
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+
+                {/* Date Badge */}
+
+                <div className="flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 self-start">
+
+                  <div className="w-4 h-4 text-gray-400">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+
+                    </svg>
+
+                  </div>
+
+                  <span className="text-xs font-semibold text-gray-400 tracking-wide">2023 — 2026</span>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+          </section>
+
+
+
+          {/* --- Projects Section --- */}
+
+          <section id="projects" className="mb-40 scroll-mt-28">
+
+            <div className="flex items-center gap-2 mb-12">
+
+              <Code className="text-blue-500" size={24} />
+
+              <h3 className="text-2xl font-bold text-white tracking-tight">Featured Projects</h3>
+
+            </div>
+
+
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+              {[
+
+                {
+
+                  title: "Point of Sale System",
+
+                  description: "A customized POS system for local businesses to manage operations, inventory, and sales in a single platform.",
+
+                  tech: ["React", "Redux Toolkit", "Shadcn UI"],
+
+                  image: "/pos-project.png", // သင့်ပုံလမ်းကြောင်းထည့်ပါ
+
+                },
+
+                {
+
+                  title: "Hotel Booking Management",
+
+                  description: "Open source community project to build a complete hotel reservation and management dashboard.",
+
+                  tech: ["React", "Tanstack Query", "Shadcn UI", "AWS S3"],
+
+                  image: "/hotel-project.png",
+
+                },
+
+                {
+
+                  title: "AI-Powered Chatbot",
+
+                  description: "Fullstack AI chatbot integrated with Azure AI to handle personal queries and life data analysis.",
+
+                  tech: ["NextJS", "Tailwind CSS", "Azure AI", "AWS Lambda"],
+
+                  image: "/ai-project.png",
+
+                }
+
+              ].map((project, index) => (
+
+                <div key={index} className="flex flex-col bg-[#0a0a0a] border border-white/10 rounded-[2rem] overflow-hidden group hover:border-blue-500/30 transition-all duration-500">
+
+                  {/* Project Image Container */}
+
+                  <div className="relative h-48 overflow-hidden bg-white/5">
+
+                    <img
+
+                      src={project.image}
+
+                      alt={project.title}
+
+                      className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+
+                    />
+
+                  </div>
+
+
+
+                  {/* Content Area */}
+
+                  <div className="p-8 flex flex-col flex-grow">
+
+                    <h4 className="text-xl font-bold text-white mb-4 group-hover:text-blue-400 transition-colors">
+
+                      {project.title}
+
+                    </h4>
+
+                    <p className="text-gray-500 text-[14px] leading-relaxed mb-6 flex-grow">
+
+                      {project.description}
+
+                    </p>
+
+
+
+                    <div className="space-y-6">
+
+                      <div className="flex flex-col gap-3">
+
+                        <div className="flex items-center gap-2 opacity-50">
+
+                          <Terminal size={12} />
+
+                          <span className="text-[10px] font-bold uppercase tracking-widest">Tech Stack</span>
+
+                        </div>
+
+                        <div className="flex flex-wrap gap-2">
+
+                          {project.tech.map((t) => (
+
+                            <span key={t} className="px-3 py-1 rounded-full border border-white/10 bg-white/5 text-[11px] text-gray-400">
+
+                              {t}
+
+                            </span>
+
+                          ))}
+
+                        </div>
+
+                      </div>
+
+
+
+                      {/* Action Buttons */}
+
+                      <div className="flex gap-3 pt-2">
+
+                        <a href="#" className="flex-1 flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white py-2.5 rounded-xl text-sm font-semibold transition-all active:scale-95 shadow-lg shadow-blue-600/20">
+
+                          Demo
+
+                        </a>
+
+                        <a href="#" className="flex-1 flex items-center justify-center gap-2 bg-white/5 border border-white/10 hover:bg-white/10 text-white py-2.5 rounded-xl text-sm font-semibold transition-all active:scale-95">
+
+                          Code
+
+                        </a>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              ))}
+
+            </div>
+
+          </section>
+
+
+
+          {/* --- Contact Section (Updated Icons) --- */}
+
+          <section id="contact" className="py-24 px-6 scroll-mt-20">
+
+            <div className="max-w-xl mx-auto">
+
+
+
+              <div className="bg-white rounded-3xl p-12 shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-gray-100 flex flex-col items-center text-center transition-all">
+
+
+
+                <h2 className="text-4xl font-extrabold text-[#0d0d0d] mb-5 tracking-tighter">
+
+                  Contact
+
+                </h2>
+
+
+
+                <p className="text-lg text-gray-600 mb-12 max-w-sm font-medium leading-relaxed">
+
+                  Feel free to connect with me through any of the platforms below!
+
+                </p>
+
+
+
+                {/* Social Icons (Facebook & Telegram) */}
+
+                <div className="flex gap-12 mb-12">
+
+                  {[
+
+                    {
+
+                      name: "Facebook",
+
+                      // Facebook Icon color: #1877F2
+
+                      icon: <Mail size={50} className="text-[#1877F2]" />,
+
+                      href: "https://facebook.com/your-profile"
+
+                    },
+
+                    // {
+
+                    // name: "Telegram",
+
+                    // // Telegram Icon color: #24A1DE (Send icon as a placeholder)
+
+                    // icon: <Telegram size={50} className="text-[#24A1DE]" />,
+
+                    // href: "https://t.me/your-username"
+
+                    // }
+
+                  ].map((platform) => (
+
+                    <a
+
+                      key={platform.name}
+
+                      href={platform.href}
+
+                      target="_blank"
+
+                      rel="noopener noreferrer"
+
+                      className="flex flex-col items-center gap-3 transition-transform hover:-translate-y-1 hover:opacity-80 active:scale-95"
+
+                    >
+
+                      {platform.icon}
+
+                      <span className="text-sm font-semibold text-gray-700">
+
+                        {platform.name}
+
+                      </span>
+
+                    </a>
+
+                  ))}
+
+                </div>
+
+
+
+                {/* Email Section */}
+
+                <div className="flex flex-col items-center gap-4">
+
+                  <a
+
+                    href="mailto:heinzeyarkyaw2017@gmail.com"
+
+                    className="flex items-center gap-3 bg-gray-50 border border-gray-100 px-6 py-3.5 rounded-full transition-all hover:bg-gray-100 active:scale-95 shadow-sm"
+
+                  >
+
+                    <Mail size={22} className="text-[#d93025]" />
+
+                    <span className="text-[17px] font-semibold text-gray-800 tracking-tight">
+
+                      heinzeyarkyaw2017@gmail.com
+
+                    </span>
+
+                  </a>
+
+                  <span className="text-sm font-semibold text-gray-500 uppercase tracking-widest">
+
+                    Email
+
+                  </span>
+
+                </div>
+
+              </div>
+
+
+
+            </div>
+
+          </section>
         </section>
       </main>
 
